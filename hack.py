@@ -5,7 +5,7 @@
 # to their knees by exhausting the resource pool, its is meant for research purposes only
 # and any malicious usage of this tool is prohibited.
 #
-# author :  SIKARION , version 1.0
+# author :  SIKARION , version 2.0
 # ----------------------------------------------------------------------------------------------
 import urllib2
 import sys
