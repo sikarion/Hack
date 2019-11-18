@@ -79,7 +79,7 @@ def usage():
         print '(((((((((((((((((((((((((()))))))))))))))))))))))) '
 	print 'USAGE: python hack.py <url>'
 	print 'you can add "safe" after url, to autoshut after dos'
-        print '             H⃠ A⃠ C⃠ K⃠  F⃠ O⃠ R⃠  L⃠ I⃠ V⃠ E⃠ '
+        print '(((((((((((((((((((((((((()))))))))))))))))))))))) '
         print '---------------------------------------------------'
 
 	
