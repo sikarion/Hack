@@ -1,5 +1,5 @@
 # Hack
-For Termux easy to use 
+Easy to use 
 To do attacks ddos
 Commands
 pkg install python2
