@@ -3,8 +3,7 @@ Easy to use
 To do attacks ddos
 Commands
 -pkg install python2
--apt install git
--pkg install python
+-pkg install git
 -git clone https://github.com/sikarion/Hack.git
 -ls
 -cd Hack
