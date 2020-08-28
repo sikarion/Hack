@@ -17,4 +17,3 @@ Commands
 
 -python2 hack.py (url)
 
-Hsh
