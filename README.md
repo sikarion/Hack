@@ -6,7 +6,7 @@
 to their knees by exhausting the resource pool, its is meant for research purposes only
 and any malicious usage of this tool is prohibited~
 
-_ To do attacks ddos_
+_ To do attacks ddos _
 
 # REQUIREMENTS
 
