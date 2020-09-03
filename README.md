@@ -5,9 +5,9 @@ To do attacks ddos
 
 # REQUIREMENTS
 
--Install python2
+* Install python2
 
--Install git
+* Install git
 
 ### 𝘾𝙊𝙈𝙈𝘼𝙉𝘿𝙎 
 
