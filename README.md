@@ -7,7 +7,7 @@ To do attacks ddos
 
 -pkg install git
 
-𝘾𝙊𝙈𝙈𝘼𝙉𝘿𝙎 
+# 𝘾𝙊𝙈𝙈𝘼𝙉𝘿𝙎 
 
 -git clone https://github.com/sikarion/Hack.git
 
