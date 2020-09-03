@@ -18,16 +18,7 @@ Install git
 
 ```
 
--ls
-```
-
-```
-
--cd Hack
-```
-```
-
--ls
+-cd Hack;ls
 ```
 
 ```
