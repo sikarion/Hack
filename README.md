@@ -13,15 +13,16 @@ Install git
 '''
 
 -git clone https://github.com/sikarion/Hack.git
+'''
 
 '''
 
 -ls
+'''
 
 '''
 
 -cd Hack
-
 '''
 
 -ls
