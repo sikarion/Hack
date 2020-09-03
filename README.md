@@ -3,9 +3,11 @@
 
 To do attacks ddos
 
--pkg install python2
+# REQUIREMENTS
 
--pkg install git
+Install python2
+
+Install git
 
 # 𝘾𝙊𝙈𝙈𝘼𝙉𝘿𝙎 
 
