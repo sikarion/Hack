@@ -109,7 +109,7 @@ def useragent_list():
 	headers_useragents.append('Akregator/1.2.9; librss/remnants')
 	headers_useragents.append('Aladin/3.324')
 	headers_useragents.append('Alcatel-BG3/1.0 UP.Browser/5.0.3.1.2')
-        headers_useragents.append('Aleksika Spider/1.0 (+http://www.aleksika.com)')
+        headers_useragents.append('Aleksika Spider/1.0 (+http://www.aleksika.com/)')
         headers_useragents.append('AlertInfo 2.0 (Powered by Newsbrain)')
         headers_useragents.append('AlkalineBOT/1.3')
         headers_useragents.append('AlkalineBOT/1.4 (1.4.0326.0 RTM)')
