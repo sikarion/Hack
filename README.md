@@ -10,7 +10,7 @@ and any malicious usage of this tool is prohibited~
 
 # REQUIREMENTS
 
-* Install python2
+* Install python
 
 * Install git
 
