@@ -28,5 +28,5 @@ and any malicious usage of this tool is prohibited~
 
 ```
 
--python2 hack.py (url)
+-python3 hack.py (url)
 
