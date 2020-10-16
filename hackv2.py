@@ -849,6 +849,7 @@ def useragent_list():
         headers_useragents.append('Full Web Bot 2816B')
         headers_useragents.append('FuseBulb.Com')
         headers_useragents.append('FyberSpider (+http://www.fybersearch.com/fyberspider.php)')
+	headers_useragents.append('unknownght.com Web Server IIS vs Apache Survey. See Results at www.DNSRight.com  headers_useragents.append(')
 	return(headers_useragents)
 
 # generates a referer array
