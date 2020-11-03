@@ -5,6 +5,9 @@
 # to their knees by exhausting the resource pool, its is meant for research purposes only
 # and any malicious usage of this tool is prohibited.
 #
+#You have to be your own hero
+#This tool is very powerful, be careful with the use you make
+#
 # author :  SIKARION , version 3.0
 # ----------------------------------------------------------------------------------------------
 import urllib2
